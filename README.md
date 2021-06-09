@@ -1,6 +1,6 @@
 # PFLM
 
-The implementation of PFLM
+This repository is for our Information Sciences 2021 paper "PFLM: Privacy-preserving Federated Learning with Membership Proof". Detailed instructions are described as follows.
 
 
 Install the required packages
@@ -9,6 +9,7 @@ virtualenv -p /usr/bin/python3 venv
 source venv/bin/activate
 pip install -r requirements
 ```
+Install the packages pypbc
 
 1. Adjust the appropriate gradient dimensions NB_CLASSES in client.py and server.py.
 
@@ -22,5 +23,5 @@ pip install -r requirements
 run nodrop.sh
 ```
 
-Note that the experimental data is saved in BENCHMARK.
+Note that the data recorded in the experiment is saved in BENCHMARK.
 Note that the graph is in the folder Plot.
