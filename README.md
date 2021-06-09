@@ -17,11 +17,11 @@ Install the packages pypbc
 
 3. Adjust the timeouts of the five rounds in server.py to the appropriate RTT (Following the two steps above).
 
-4. Execute the sh file.
+4. Execute the sh file. For example,
 
 ```
-run nodrop.sh
+bash nodrop.sh
 ```
 
 Note that the data recorded in the experiment is saved in BENCHMARK.
-Note that the graph is in the folder Plot.
+Note that the figures are in the folder Plot.
